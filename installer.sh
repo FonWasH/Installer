@@ -51,7 +51,7 @@ DotfilesInstall()
 	git clone git@github.com:FonWasH/dotfiles.git ~/dotfiles
 	setopt -s glob_dots
 	mv ~/dotfiles/* ~/
-	rm -rf dotfiles
+	rm -rf ~/dotfiles
 	clear
 	echo "Dotfiles installed."
 }
