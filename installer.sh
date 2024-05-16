@@ -48,7 +48,7 @@ SSHKey()
 
 DotfilesInstall()
 {
-	git clone git@github.com:FonWasH/dotfiles.git
+	git clone git@github.com:FonWasH/dotfiles.git ~/dotfiles
 	setopt -s glob_dots
 	mv ~/dotfiles/* ~/
 	rm -rf dotfiles
