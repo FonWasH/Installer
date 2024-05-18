@@ -29,7 +29,7 @@ ZSHInstall()
 		sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
   		git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 		clear
-		echo "ZSH and Oh My ZSH installed."
+		echo "ZSH, Oh My ZSH and Powerlevel10k installed."
 	else
 		clear
 		echo "ZSH is not installed. Installation cannot proceed."
@@ -65,7 +65,7 @@ Installer()
 		echo ""
 		echo "What would you like to install?"
 		echo ""
-		echo "	${Y}1. ${G}ZSH and Oh My ZSH${X}"
+		echo "	${Y}1. ${G}ZSH, Oh My ZSH and Powerlevel10k${X}"
 		echo "	${Y}2. ${G}SSH Key${X}"
 		echo "	${Y}3. ${G}Dotfiles${X}"
 		echo "	${Y}4. ${R}Exit${X}"
