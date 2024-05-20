@@ -4,10 +4,11 @@ This project is a bash script that automates the installation of ZSH, Oh My ZSH,
 
 ## Features
 
-- **ZSH Installation:**
-- **Oh My ZSH Installation:**
-- **SSH Key Creation:**
-- **Dotfiles Installation:**
+- **ZSH Installation**
+- **Oh My ZSH Installation**
+- **Powerlevel10k Installation**
+- **SSH Key Creation**
+- **Dotfiles Installation**
 
 ## Installation
 
